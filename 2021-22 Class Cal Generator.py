@@ -1,5 +1,12 @@
 import csv
 
+a_day_classes = ['Calculus I*', 'Advisory', 'Finance: Portfolio Analysis', 'Lunch A', 'Woodworking II*', 'Free Period (D Block)']
+b_day_classes = ['Finance: Portfolio Analysis', 'Community Period', 'Woodworking II*', 'Lunch / Free Period (D Block)', 'Calculus I*']
+c_day_classes = ['Woodworking II*', 'Advisory', 'Free Period (D Block)', 'Calculus I*', 'Lunch B', 'Finance: Portfolio Analysis']
+d_day_classes = ['Free Period (D Block)', 'Advisory', 'Calculus I*', 'Finance: Portfolio Analysis', 'Lunch B', 'Woodworking II*)']
+
+
+
 date_exceptions = [
     9012021,
     9022021,
@@ -55,12 +62,12 @@ def fill_a_days():
         day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
         a_day = [
-            ['Calculus I*', day, '8:30 AM', '9:45 AM'], 
-            ['Advisory', day, '9:50 AM', '10:30 AM'],
-            ['Finance: Portfolio Analysis', day, '10:30 AM', '11:50 AM'],
-            ['Lunch A', day, '11:55 AM', '12:35 PM'],
-            ['Woodworking II*', day, '12:40 PM', '1:55 PM'],
-            ['Free Period (D Block)', day, '2:00 PM', '3:15 PM']
+            [a_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+            [a_day_classes[1], day, '9:50 AM', '10:30 AM'],
+            [a_day_classes[2], day, '10:30 AM', '11:50 AM'],
+            [a_day_classes[3], day, '11:55 AM', '12:35 PM'],
+            [a_day_classes[4], day, '12:40 PM', '1:55 PM'],
+            [a_day_classes[5], day, '2:00 PM', '3:15 PM']
             ]
 
         with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
@@ -76,11 +83,11 @@ def fill_b_days():
         day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
         b_day = [
-            ['Finance: Portfolio Analysis', day, '8:30 AM', '9:45 AM'], 
-            ['Community Period', day, '9:50 AM', '10:30 AM'],
-            ['Woodworking II*', day, '10:30 AM', '11:50 AM'],
-            ['Lunch / Free Period (D Block)', day, '11:55 AM', '1:55 PM'],
-            ['Calculus I*', day, '2:00 PM', '3:15 PM']
+            [b_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+            [b_day_classes[1], day, '9:50 AM', '10:30 AM'],
+            [b_day_classes[2], day, '10:30 AM', '11:50 AM'],
+            [b_day_classes[3], day, '11:55 AM', '1:55 PM'],
+            [b_day_classes[4], day, '2:00 PM', '3:15 PM']
             ]
 
         with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
@@ -96,12 +103,12 @@ def fill_c_days():
         day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
         c_day = [
-            ['Woodworking II*', day, '8:30 AM', '9:45 AM'], 
-            ['Advisory', day, '9:50 AM', '10:30 AM'],
-            ['Free Period (D Block)', day, '10:30 AM', '11:50 AM'],
-            ['Calculus I*', day, '11:55 AM', '1:10 PM'],
-            ['Lunch B', day, '1:15 PM', '1:55 PM'],
-            ['Finance: Portfolio Analysis', day, '2:00 PM', '3:15 PM']
+            [c_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+            [c_day_classes[1], day, '9:50 AM', '10:30 AM'],
+            [c_day_classes[2], day, '10:30 AM', '11:50 AM'],
+            [c_day_classes[3], day, '11:55 AM', '1:10 PM'],
+            [c_day_classes[4], day, '1:15 PM', '1:55 PM'],
+            [c_day_classes[5], day, '2:00 PM', '3:15 PM']
             ]
 
         with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
@@ -117,12 +124,12 @@ def fill_d_days():
         day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
         d_day = [
-            ['Free Period (D Block)', day, '8:30 AM', '9:45 AM'], 
-            ['Advisory', day, '9:50 AM', '10:30 AM'],
-            ['Calculus I*', day, '10:30 AM', '11:50 AM'],
-            ['Finance: Portfolio Analysis', day, '11:55 AM', '1:10 PM'],
-            ['Lunch B', day, '1:15 PM', '1:55 PM'],
-            ['Woodworking II*)', day, '2:00 PM', '3:15 PM']
+            [d_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+            [d_day_classes[1], day, '9:50 AM', '10:30 AM'],
+            [d_day_classes[2], day, '10:30 AM', '11:50 AM'],
+            [d_day_classes[3], day, '11:55 AM', '1:10 PM'],
+            [d_day_classes[4], day, '1:15 PM', '1:55 PM'],
+            [d_day_classes[5], day, '2:00 PM', '3:15 PM']
             ]
 
         with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
