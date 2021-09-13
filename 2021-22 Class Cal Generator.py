@@ -1,9 +1,9 @@
 import csv
 
-a_day_classes = ['Calculus I*', 'Advisory', 'Finance: Portfolio Analysis', 'Lunch A', 'Woodworking II*', 'Free Period (D Block)']
+a_day_classes = ['Calculus I*', 'Community Period', 'Finance: Portfolio Analysis', 'Lunch A', 'Woodworking II*', 'Free Period (D Block)']
 b_day_classes = ['Finance: Portfolio Analysis', 'Community Period', 'Woodworking II*', 'Lunch / Free Period (D Block)', 'Calculus I*']
-c_day_classes = ['Woodworking II*', 'Advisory', 'Free Period (D Block)', 'Calculus I*', 'Lunch B', 'Finance: Portfolio Analysis']
-d_day_classes = ['Free Period (D Block)', 'Advisory', 'Calculus I*', 'Finance: Portfolio Analysis', 'Lunch B', 'Woodworking II*)']
+c_day_classes = ['Woodworking II*', 'Community Period', 'Free Period (D Block)', 'Calculus I*', 'Lunch B', 'Finance: Portfolio Analysis']
+d_day_classes = ['Free Period (D Block)', 'Community Period', 'Calculus I*', 'Finance: Portfolio Analysis', 'Lunch B', 'Woodworking II*)']
 
 
 
@@ -53,36 +53,79 @@ with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'w') as file:
 
 date = 9092021 #monthdayyear | A-day
 
+
+
+weds = []
+iter = 0 
+while iter < 60:
+    wed_date = (date + iter*70000)
+    weds.append(wed_date)
+    iter += 1
+
+
+
 def fill_a_days():   
     index_pos = 0
     while index_pos < len(all_dates):
         date = all_dates[index_pos]
-        index_pos += 4    
-    
-        day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+        index_pos += 4       
+        
+        if date in weds: #if this is true, meaning the date is a wednesday
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
-        a_day = [
-            [a_day_classes[0], day, '8:30 AM', '9:45 AM'], 
-            [a_day_classes[1], day, '9:50 AM', '10:30 AM'],
-            [a_day_classes[2], day, '10:30 AM', '11:50 AM'],
-            [a_day_classes[3], day, '11:55 AM', '12:35 PM'],
-            [a_day_classes[4], day, '12:40 PM', '1:55 PM'],
-            [a_day_classes[5], day, '2:00 PM', '3:15 PM']
-            ]
+            a_day = [
+                [a_day_classes[0], day, '9:00 AM', '10:15 AM'], 
+                ['Break', day, '10:15 AM', '10:30 AM'],
+                [a_day_classes[2], day, '10:35 AM', '11:50 AM'],
+                [a_day_classes[3], day, '11:55 AM', '12:35 PM'],
+                [a_day_classes[4], day, '12:40 PM', '1:55 PM'],
+                [a_day_classes[5], day, '2:00 PM', '3:15 PM']
+                ]
 
-        with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
-            writer = csv.writer(file)
-            writer.writerows(a_day)
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(a_day)
+        else:
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+
+            a_day = [
+                [a_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+                [a_day_classes[1], day, '9:50 AM', '10:30 AM'],
+                [a_day_classes[2], day, '10:30 AM', '11:50 AM'],
+                [a_day_classes[3], day, '11:55 AM', '12:35 PM'],
+                [a_day_classes[4], day, '12:40 PM', '1:55 PM'],
+                [a_day_classes[5], day, '2:00 PM', '3:15 PM']
+                ]
+
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(a_day)
 
 def fill_b_days():   
     index_pos = 1
     while index_pos < len(all_dates):
         date = all_dates[index_pos]
         index_pos += 4    
-    
-        day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
-        b_day = [
+        if date in weds: #if this is true, meaning the date is a wednesday
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+
+            b_day = [
+                [b_day_classes[0], day, '9:00 AM', '10:15 AM'], 
+                ['Break', day, '10:15 AM', '10:30 AM'],
+                [b_day_classes[2], day, '10:35 AM', '11:50 AM'],
+                [b_day_classes[3], day, '11:55 AM', '1:55 PM'],
+                [b_day_classes[4], day, '2:00 PM', '3:14 PM']
+                ]
+
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(b_day)
+                
+        else:
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+
+            b_day = [
             [b_day_classes[0], day, '8:30 AM', '9:45 AM'], 
             [b_day_classes[1], day, '9:50 AM', '10:30 AM'],
             [b_day_classes[2], day, '10:30 AM', '11:50 AM'],
@@ -90,51 +133,86 @@ def fill_b_days():
             [b_day_classes[4], day, '2:00 PM', '3:15 PM']
             ]
 
-        with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
-            writer = csv.writer(file)
-            writer.writerows(b_day)
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(b_day)
 
 def fill_c_days():   
-    index_pos = 2
+    index_pos = 0
     while index_pos < len(all_dates):
         date = all_dates[index_pos]
-        index_pos += 4    
-    
-        day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+        index_pos += 4       
+        
+        if date in weds: #if this is true, meaning the date is a wednesday
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
-        c_day = [
-            [c_day_classes[0], day, '8:30 AM', '9:45 AM'], 
-            [c_day_classes[1], day, '9:50 AM', '10:30 AM'],
-            [c_day_classes[2], day, '10:30 AM', '11:50 AM'],
-            [c_day_classes[3], day, '11:55 AM', '1:10 PM'],
-            [c_day_classes[4], day, '1:15 PM', '1:55 PM'],
-            [c_day_classes[5], day, '2:00 PM', '3:15 PM']
-            ]
+            c_day = [
+                [c_day_classes[0], day, '9:00 AM', '10:15 AM'], 
+                ['Break', day, '10:15 AM', '10:30 AM'],
+                [c_day_classes[2], day, '10:35 AM', '11:50 AM'],
+                [c_day_classes[3], day, '11:55 AM', '1:10 PM'],
+                [c_day_classes[4], day, '1:15 PM', '1:55 PM'],
+                [c_day_classes[5], day, '2:00 PM', '3:15 PM']
+                ]
 
-        with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
-            writer = csv.writer(file)
-            writer.writerows(c_day) 
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(c_day)
+        else:
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+
+            c_day = [
+                [c_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+                [c_day_classes[1], day, '9:50 AM', '10:30 AM'],
+                [c_day_classes[2], day, '10:30 AM', '11:50 AM'],
+                [c_day_classes[3], day, '11:55 AM', '1:10 PM'],
+                [c_day_classes[4], day, '1:15 PM', '1:55 PM'],
+                [c_day_classes[5], day, '2:00 PM', '3:15 PM']
+                ]
+
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(c_day)
+
 
 def fill_d_days():   
-    index_pos = 3
+    index_pos = 0
     while index_pos < len(all_dates):
         date = all_dates[index_pos]
-        index_pos += 4    
-    
-        day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+        index_pos += 4       
+        
+        if date in weds: #if this is true, meaning the date is a wednesday
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
-        d_day = [
-            [d_day_classes[0], day, '8:30 AM', '9:45 AM'], 
-            [d_day_classes[1], day, '9:50 AM', '10:30 AM'],
-            [d_day_classes[2], day, '10:30 AM', '11:50 AM'],
-            [d_day_classes[3], day, '11:55 AM', '1:10 PM'],
-            [d_day_classes[4], day, '1:15 PM', '1:55 PM'],
-            [d_day_classes[5], day, '2:00 PM', '3:15 PM']
-            ]
+            c_day = [
+                [d_day_classes[0], day, '9:00 AM', '10:15 AM'], 
+                ['Break', day, '10:15 AM', '10:30 AM'],
+                [d_day_classes[2], day, '10:35 AM', '11:50 AM'],
+                [d_day_classes[3], day, '11:55 AM', '1:10 PM'],
+                [d_day_classes[4], day, '1:15 PM', '1:55 PM'],
+                [d_day_classes[5], day, '2:00 PM', '3:15 PM']
+                ]
 
-        with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
-            writer = csv.writer(file)
-            writer.writerows(d_day)
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(d_day)
+        else:
+            day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
+
+            d_day = [
+                [d_day_classes[0], day, '8:30 AM', '9:45 AM'], 
+                [d_day_classes[1], day, '9:50 AM', '10:30 AM'],
+                [d_day_classes[2], day, '10:30 AM', '11:50 AM'],
+                [d_day_classes[3], day, '11:55 AM', '1:10 PM'],
+                [d_day_classes[4], day, '1:15 PM', '1:55 PM'],
+                [d_day_classes[5], day, '2:00 PM', '3:15 PM']
+                ]
+
+            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+                writer = csv.writer(file)
+                writer.writerows(d_day)
+
+
 
 def get_days_of_year():
     
