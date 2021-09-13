@@ -5,7 +5,7 @@ b_day_classes = ['Finance: Portfolio Analysis', 'Community Period', 'Woodworking
 c_day_classes = ['Woodworking II*', 'Community Period', 'Free Period (D Block)', 'Calculus I*', 'Lunch B', 'Finance: Portfolio Analysis']
 d_day_classes = ['Free Period (D Block)', 'Community Period', 'Calculus I*', 'Finance: Portfolio Analysis', 'Lunch B', 'Woodworking II*)']
 
-
+file_path = 'C:/Users/Bram Schork/Dropbox/Bram/Projects/2021-22-Class-Cal-Generator/classes.csv'
 
 date_exceptions = [
     9012021,
@@ -47,7 +47,7 @@ date_exceptions = [
     ]
 
 format_bar = [['Subject', 'Start Date', 'Start Time', 'End Time']]
-with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'w') as file:
+with open(file_path, 'w') as file:
     writer = csv.writer(file)
     writer.writerows(format_bar)
 
@@ -82,7 +82,7 @@ def fill_a_days():
                 [a_day_classes[5], day, '2:00 PM', '3:15 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(a_day)
         else:
@@ -97,7 +97,7 @@ def fill_a_days():
                 [a_day_classes[5], day, '2:00 PM', '3:15 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(a_day)
 
@@ -118,7 +118,7 @@ def fill_b_days():
                 [b_day_classes[4], day, '2:00 PM', '3:14 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(b_day)
                 
@@ -133,7 +133,7 @@ def fill_b_days():
             [b_day_classes[4], day, '2:00 PM', '3:15 PM']
             ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(b_day)
 
@@ -155,7 +155,7 @@ def fill_c_days():
                 [c_day_classes[5], day, '2:00 PM', '3:15 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(c_day)
         else:
@@ -170,7 +170,7 @@ def fill_c_days():
                 [c_day_classes[5], day, '2:00 PM', '3:15 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(c_day)
 
@@ -184,7 +184,7 @@ def fill_d_days():
         if date in weds: #if this is true, meaning the date is a wednesday
             day = ('{0}/{1}/{2}'.format(str(date)[:-6], str(date)[-6:-4], str(date)[-4:])) #Month/Day/Year'
 
-            c_day = [
+            d_day = [
                 [d_day_classes[0], day, '9:00 AM', '10:15 AM'], 
                 ['Break', day, '10:15 AM', '10:30 AM'],
                 [d_day_classes[2], day, '10:35 AM', '11:50 AM'],
@@ -193,7 +193,7 @@ def fill_d_days():
                 [d_day_classes[5], day, '2:00 PM', '3:15 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(d_day)
         else:
@@ -208,7 +208,7 @@ def fill_d_days():
                 [d_day_classes[5], day, '2:00 PM', '3:15 PM']
                 ]
 
-            with open('C:/Users/Bram Schork/Desktop/Schedule/classes.csv', 'a') as file:
+            with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(d_day)
 
