@@ -51,7 +51,7 @@ with open(file_path, 'w') as file:
     writer = csv.writer(file)
     writer.writerows(format_bar)
 
-date = 9092021 #monthdayyear | A-day
+date = 9082021 #monthdayyear | A-day
 
 
 
@@ -62,7 +62,7 @@ while iter < 60:
     weds.append(wed_date)
     iter += 1
 
-
+date = 9092021 #monthdayyear | A-day | first day of school
 
 def fill_a_days():   
     index_pos = 0
@@ -138,7 +138,7 @@ def fill_b_days():
                 writer.writerows(b_day)
 
 def fill_c_days():   
-    index_pos = 0
+    index_pos = 2
     while index_pos < len(all_dates):
         date = all_dates[index_pos]
         index_pos += 4       
@@ -176,7 +176,7 @@ def fill_c_days():
 
 
 def fill_d_days():   
-    index_pos = 0
+    index_pos = 3
     while index_pos < len(all_dates):
         date = all_dates[index_pos]
         index_pos += 4       
