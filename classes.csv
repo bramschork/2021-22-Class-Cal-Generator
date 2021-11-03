@@ -53,9 +53,9 @@ Finance: Portfolio Analysis,10/28/2021,10:30 AM,11:50 AM
 Lunch A,10/28/2021,11:55 AM,12:35 PM
 Woodworking II*,10/28/2021,12:40 PM,1:55 PM
 Free Period (D Block),10/28/2021,2:00 PM,3:15 PM
-Calculus I*,11/03/2021,8:30 AM,9:45 AM
-Community Period,11/03/2021,9:50 AM,10:30 AM
-Finance: Portfolio Analysis,11/03/2021,10:30 AM,11:50 AM
+Calculus I*,11/03/2021,9:00 AM,10:15 AM
+Break,11/03/2021,10:15 AM,10:30 AM
+Finance: Portfolio Analysis,11/03/2021,10:35 AM,11:50 AM
 Lunch A,11/03/2021,11:55 AM,12:35 PM
 Woodworking II*,11/03/2021,12:40 PM,1:55 PM
 Free Period (D Block),11/03/2021,2:00 PM,3:15 PM
@@ -77,9 +77,9 @@ Finance: Portfolio Analysis,11/22/2021,10:30 AM,11:50 AM
 Lunch A,11/22/2021,11:55 AM,12:35 PM
 Woodworking II*,11/22/2021,12:40 PM,1:55 PM
 Free Period (D Block),11/22/2021,2:00 PM,3:15 PM
-Calculus I*,12/01/2021,8:30 AM,9:45 AM
-Community Period,12/01/2021,9:50 AM,10:30 AM
-Finance: Portfolio Analysis,12/01/2021,10:30 AM,11:50 AM
+Calculus I*,12/01/2021,9:00 AM,10:15 AM
+Break,12/01/2021,10:15 AM,10:30 AM
+Finance: Portfolio Analysis,12/01/2021,10:35 AM,11:50 AM
 Lunch A,12/01/2021,11:55 AM,12:35 PM
 Woodworking II*,12/01/2021,12:40 PM,1:55 PM
 Free Period (D Block),12/01/2021,2:00 PM,3:15 PM
@@ -119,9 +119,9 @@ Finance: Portfolio Analysis,1/20/2022,10:30 AM,11:50 AM
 Lunch A,1/20/2022,11:55 AM,12:35 PM
 Woodworking II*,1/20/2022,12:40 PM,1:55 PM
 Free Period (D Block),1/20/2022,2:00 PM,3:15 PM
-Calculus I*,1/26/2022,8:30 AM,9:45 AM
-Community Period,1/26/2022,9:50 AM,10:30 AM
-Finance: Portfolio Analysis,1/26/2022,10:30 AM,11:50 AM
+Calculus I*,1/26/2022,9:00 AM,10:15 AM
+Break,1/26/2022,10:15 AM,10:30 AM
+Finance: Portfolio Analysis,1/26/2022,10:35 AM,11:50 AM
 Lunch A,1/26/2022,11:55 AM,12:35 PM
 Woodworking II*,1/26/2022,12:40 PM,1:55 PM
 Free Period (D Block),1/26/2022,2:00 PM,3:15 PM
@@ -161,9 +161,9 @@ Finance: Portfolio Analysis,3/03/2022,10:30 AM,11:50 AM
 Lunch A,3/03/2022,11:55 AM,12:35 PM
 Woodworking II*,3/03/2022,12:40 PM,1:55 PM
 Free Period (D Block),3/03/2022,2:00 PM,3:15 PM
-Calculus I*,3/09/2022,8:30 AM,9:45 AM
-Community Period,3/09/2022,9:50 AM,10:30 AM
-Finance: Portfolio Analysis,3/09/2022,10:30 AM,11:50 AM
+Calculus I*,3/09/2022,9:00 AM,10:15 AM
+Break,3/09/2022,10:15 AM,10:30 AM
+Finance: Portfolio Analysis,3/09/2022,10:35 AM,11:50 AM
 Lunch A,3/09/2022,11:55 AM,12:35 PM
 Woodworking II*,3/09/2022,12:40 PM,1:55 PM
 Free Period (D Block),3/09/2022,2:00 PM,3:15 PM
@@ -215,9 +215,9 @@ Finance: Portfolio Analysis,5/05/2022,10:30 AM,11:50 AM
 Lunch A,5/05/2022,11:55 AM,12:35 PM
 Woodworking II*,5/05/2022,12:40 PM,1:55 PM
 Free Period (D Block),5/05/2022,2:00 PM,3:15 PM
-Calculus I*,5/11/2022,8:30 AM,9:45 AM
-Community Period,5/11/2022,9:50 AM,10:30 AM
-Finance: Portfolio Analysis,5/11/2022,10:30 AM,11:50 AM
+Calculus I*,5/11/2022,9:00 AM,10:15 AM
+Break,5/11/2022,10:15 AM,10:30 AM
+Finance: Portfolio Analysis,5/11/2022,10:35 AM,11:50 AM
 Lunch A,5/11/2022,11:55 AM,12:35 PM
 Woodworking II*,5/11/2022,12:40 PM,1:55 PM
 Free Period (D Block),5/11/2022,2:00 PM,3:15 PM
@@ -251,9 +251,9 @@ Finance: Portfolio Analysis,6/09/2022,10:30 AM,11:50 AM
 Lunch A,6/09/2022,11:55 AM,12:35 PM
 Woodworking II*,6/09/2022,12:40 PM,1:55 PM
 Free Period (D Block),6/09/2022,2:00 PM,3:15 PM
-Calculus I*,6/15/2022,8:30 AM,9:45 AM
-Community Period,6/15/2022,9:50 AM,10:30 AM
-Finance: Portfolio Analysis,6/15/2022,10:30 AM,11:50 AM
+Calculus I*,6/15/2022,9:00 AM,10:15 AM
+Break,6/15/2022,10:15 AM,10:30 AM
+Finance: Portfolio Analysis,6/15/2022,10:35 AM,11:50 AM
 Lunch A,6/15/2022,11:55 AM,12:35 PM
 Woodworking II*,6/15/2022,12:40 PM,1:55 PM
 Free Period (D Block),6/15/2022,2:00 PM,3:15 PM
@@ -294,11 +294,11 @@ Community Period,10/05/2021,9:50 AM,10:30 AM
 Woodworking II*,10/05/2021,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),10/05/2021,11:55 AM,1:55 PM
 Calculus I*,10/05/2021,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,10/11/2021,8:30 AM,9:45 AM
-Community Period,10/11/2021,9:50 AM,10:30 AM
-Woodworking II*,10/11/2021,10:30 AM,11:50 AM
-Lunch / Free Period (D Block),10/11/2021,11:55 AM,1:55 PM
-Calculus I*,10/11/2021,2:00 PM,3:15 PM
+Finance: Portfolio Analysis,10/12/2021,8:30 AM,9:45 AM
+Community Period,10/12/2021,9:50 AM,10:30 AM
+Woodworking II*,10/12/2021,10:30 AM,11:50 AM
+Lunch / Free Period (D Block),10/12/2021,11:55 AM,1:55 PM
+Calculus I*,10/12/2021,2:00 PM,3:15 PM
 Finance: Portfolio Analysis,10/18/2021,8:30 AM,9:45 AM
 Community Period,10/18/2021,9:50 AM,10:30 AM
 Woodworking II*,10/18/2021,10:30 AM,11:50 AM
@@ -314,36 +314,36 @@ Community Period,10/29/2021,9:50 AM,10:30 AM
 Woodworking II*,10/29/2021,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),10/29/2021,11:55 AM,1:55 PM
 Calculus I*,10/29/2021,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,11/04/2021,9:00 AM,10:15 AM
-Break,11/04/2021,10:15 AM,10:30 AM
-Woodworking II*,11/04/2021,10:35 AM,11:50 AM
+Finance: Portfolio Analysis,11/04/2021,8:30 AM,9:45 AM
+Community Period,11/04/2021,9:50 AM,10:30 AM
+Woodworking II*,11/04/2021,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),11/04/2021,11:55 AM,1:55 PM
-Calculus I*,11/04/2021,2:00 PM,3:14 PM
-Finance: Portfolio Analysis,11/10/2021,8:30 AM,9:45 AM
-Community Period,11/10/2021,9:50 AM,10:30 AM
-Woodworking II*,11/10/2021,10:30 AM,11:50 AM
+Calculus I*,11/04/2021,2:00 PM,3:15 PM
+Finance: Portfolio Analysis,11/10/2021,9:00 AM,10:15 AM
+Break,11/10/2021,10:15 AM,10:30 AM
+Woodworking II*,11/10/2021,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),11/10/2021,11:55 AM,1:55 PM
-Calculus I*,11/10/2021,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,11/17/2021,8:30 AM,9:45 AM
-Community Period,11/17/2021,9:50 AM,10:30 AM
-Woodworking II*,11/17/2021,10:30 AM,11:50 AM
+Calculus I*,11/10/2021,2:00 PM,3:14 PM
+Finance: Portfolio Analysis,11/17/2021,9:00 AM,10:15 AM
+Break,11/17/2021,10:15 AM,10:30 AM
+Woodworking II*,11/17/2021,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),11/17/2021,11:55 AM,1:55 PM
-Calculus I*,11/17/2021,2:00 PM,3:15 PM
+Calculus I*,11/17/2021,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,11/23/2021,8:30 AM,9:45 AM
 Community Period,11/23/2021,9:50 AM,10:30 AM
 Woodworking II*,11/23/2021,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),11/23/2021,11:55 AM,1:55 PM
 Calculus I*,11/23/2021,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,12/02/2021,9:00 AM,10:15 AM
-Break,12/02/2021,10:15 AM,10:30 AM
-Woodworking II*,12/02/2021,10:35 AM,11:50 AM
+Finance: Portfolio Analysis,12/02/2021,8:30 AM,9:45 AM
+Community Period,12/02/2021,9:50 AM,10:30 AM
+Woodworking II*,12/02/2021,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),12/02/2021,11:55 AM,1:55 PM
-Calculus I*,12/02/2021,2:00 PM,3:14 PM
-Finance: Portfolio Analysis,12/08/2021,8:30 AM,9:45 AM
-Community Period,12/08/2021,9:50 AM,10:30 AM
-Woodworking II*,12/08/2021,10:30 AM,11:50 AM
+Calculus I*,12/02/2021,2:00 PM,3:15 PM
+Finance: Portfolio Analysis,12/08/2021,9:00 AM,10:15 AM
+Break,12/08/2021,10:15 AM,10:30 AM
+Woodworking II*,12/08/2021,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),12/08/2021,11:55 AM,1:55 PM
-Calculus I*,12/08/2021,2:00 PM,3:15 PM
+Calculus I*,12/08/2021,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,12/14/2021,8:30 AM,9:45 AM
 Community Period,12/14/2021,9:50 AM,10:30 AM
 Woodworking II*,12/14/2021,10:30 AM,11:50 AM
@@ -374,11 +374,11 @@ Community Period,1/27/2022,9:50 AM,10:30 AM
 Woodworking II*,1/27/2022,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),1/27/2022,11:55 AM,1:55 PM
 Calculus I*,1/27/2022,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,2/02/2022,8:30 AM,9:45 AM
-Community Period,2/02/2022,9:50 AM,10:30 AM
-Woodworking II*,2/02/2022,10:30 AM,11:50 AM
+Finance: Portfolio Analysis,2/02/2022,9:00 AM,10:15 AM
+Break,2/02/2022,10:15 AM,10:30 AM
+Woodworking II*,2/02/2022,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),2/02/2022,11:55 AM,1:55 PM
-Calculus I*,2/02/2022,2:00 PM,3:15 PM
+Calculus I*,2/02/2022,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,2/08/2022,8:30 AM,9:45 AM
 Community Period,2/08/2022,9:50 AM,10:30 AM
 Woodworking II*,2/08/2022,10:30 AM,11:50 AM
@@ -409,31 +409,31 @@ Community Period,3/10/2022,9:50 AM,10:30 AM
 Woodworking II*,3/10/2022,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),3/10/2022,11:55 AM,1:55 PM
 Calculus I*,3/10/2022,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,3/16/2022,8:30 AM,9:45 AM
-Community Period,3/16/2022,9:50 AM,10:30 AM
-Woodworking II*,3/16/2022,10:30 AM,11:50 AM
+Finance: Portfolio Analysis,3/16/2022,9:00 AM,10:15 AM
+Break,3/16/2022,10:15 AM,10:30 AM
+Woodworking II*,3/16/2022,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),3/16/2022,11:55 AM,1:55 PM
-Calculus I*,3/16/2022,2:00 PM,3:15 PM
+Calculus I*,3/16/2022,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,3/22/2022,8:30 AM,9:45 AM
 Community Period,3/22/2022,9:50 AM,10:30 AM
 Woodworking II*,3/22/2022,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),3/22/2022,11:55 AM,1:55 PM
 Calculus I*,3/22/2022,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,4/06/2022,8:30 AM,9:45 AM
-Community Period,4/06/2022,9:50 AM,10:30 AM
-Woodworking II*,4/06/2022,10:30 AM,11:50 AM
+Finance: Portfolio Analysis,4/06/2022,9:00 AM,10:15 AM
+Break,4/06/2022,10:15 AM,10:30 AM
+Woodworking II*,4/06/2022,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),4/06/2022,11:55 AM,1:55 PM
-Calculus I*,4/06/2022,2:00 PM,3:15 PM
+Calculus I*,4/06/2022,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,4/12/2022,8:30 AM,9:45 AM
 Community Period,4/12/2022,9:50 AM,10:30 AM
 Woodworking II*,4/12/2022,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),4/12/2022,11:55 AM,1:55 PM
 Calculus I*,4/12/2022,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,4/20/2022,8:30 AM,9:45 AM
-Community Period,4/20/2022,9:50 AM,10:30 AM
-Woodworking II*,4/20/2022,10:30 AM,11:50 AM
+Finance: Portfolio Analysis,4/20/2022,9:00 AM,10:15 AM
+Break,4/20/2022,10:15 AM,10:30 AM
+Woodworking II*,4/20/2022,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),4/20/2022,11:55 AM,1:55 PM
-Calculus I*,4/20/2022,2:00 PM,3:15 PM
+Calculus I*,4/20/2022,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,4/26/2022,8:30 AM,9:45 AM
 Community Period,4/26/2022,9:50 AM,10:30 AM
 Woodworking II*,4/26/2022,10:30 AM,11:50 AM
@@ -454,11 +454,11 @@ Community Period,5/12/2022,9:50 AM,10:30 AM
 Woodworking II*,5/12/2022,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),5/12/2022,11:55 AM,1:55 PM
 Calculus I*,5/12/2022,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,5/18/2022,8:30 AM,9:45 AM
-Community Period,5/18/2022,9:50 AM,10:30 AM
-Woodworking II*,5/18/2022,10:30 AM,11:50 AM
+Finance: Portfolio Analysis,5/18/2022,9:00 AM,10:15 AM
+Break,5/18/2022,10:15 AM,10:30 AM
+Woodworking II*,5/18/2022,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),5/18/2022,11:55 AM,1:55 PM
-Calculus I*,5/18/2022,2:00 PM,3:15 PM
+Calculus I*,5/18/2022,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,5/24/2022,8:30 AM,9:45 AM
 Community Period,5/24/2022,9:50 AM,10:30 AM
 Woodworking II*,5/24/2022,10:30 AM,11:50 AM
@@ -484,11 +484,11 @@ Community Period,6/16/2022,9:50 AM,10:30 AM
 Woodworking II*,6/16/2022,10:30 AM,11:50 AM
 Lunch / Free Period (D Block),6/16/2022,11:55 AM,1:55 PM
 Calculus I*,6/16/2022,2:00 PM,3:15 PM
-Finance: Portfolio Analysis,6/22/2022,8:30 AM,9:45 AM
-Community Period,6/22/2022,9:50 AM,10:30 AM
-Woodworking II*,6/22/2022,10:30 AM,11:50 AM
+Finance: Portfolio Analysis,6/22/2022,9:00 AM,10:15 AM
+Break,6/22/2022,10:15 AM,10:30 AM
+Woodworking II*,6/22/2022,10:35 AM,11:50 AM
 Lunch / Free Period (D Block),6/22/2022,11:55 AM,1:55 PM
-Calculus I*,6/22/2022,2:00 PM,3:15 PM
+Calculus I*,6/22/2022,2:00 PM,3:14 PM
 Finance: Portfolio Analysis,6/28/2022,8:30 AM,9:45 AM
 Community Period,6/28/2022,9:50 AM,10:30 AM
 Woodworking II*,6/28/2022,10:30 AM,11:50 AM
@@ -554,15 +554,15 @@ Free Period (D Block),11/05/2021,10:30 AM,11:50 AM
 Calculus I*,11/05/2021,11:55 AM,1:10 PM
 Lunch B,11/05/2021,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,11/05/2021,2:00 PM,3:15 PM
-Woodworking II*,11/11/2021,9:00 AM,10:15 AM
-Break,11/11/2021,10:15 AM,10:30 AM
-Free Period (D Block),11/11/2021,10:35 AM,11:50 AM
+Woodworking II*,11/11/2021,8:30 AM,9:45 AM
+Community Period,11/11/2021,9:50 AM,10:30 AM
+Free Period (D Block),11/11/2021,10:30 AM,11:50 AM
 Calculus I*,11/11/2021,11:55 AM,1:10 PM
 Lunch B,11/11/2021,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,11/11/2021,2:00 PM,3:15 PM
-Woodworking II*,11/18/2021,9:00 AM,10:15 AM
-Break,11/18/2021,10:15 AM,10:30 AM
-Free Period (D Block),11/18/2021,10:35 AM,11:50 AM
+Woodworking II*,11/18/2021,8:30 AM,9:45 AM
+Community Period,11/18/2021,9:50 AM,10:30 AM
+Free Period (D Block),11/18/2021,10:30 AM,11:50 AM
 Calculus I*,11/18/2021,11:55 AM,1:10 PM
 Lunch B,11/18/2021,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,11/18/2021,2:00 PM,3:15 PM
@@ -578,21 +578,21 @@ Free Period (D Block),12/03/2021,10:30 AM,11:50 AM
 Calculus I*,12/03/2021,11:55 AM,1:10 PM
 Lunch B,12/03/2021,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,12/03/2021,2:00 PM,3:15 PM
-Woodworking II*,12/09/2021,9:00 AM,10:15 AM
-Break,12/09/2021,10:15 AM,10:30 AM
-Free Period (D Block),12/09/2021,10:35 AM,11:50 AM
+Woodworking II*,12/09/2021,8:30 AM,9:45 AM
+Community Period,12/09/2021,9:50 AM,10:30 AM
+Free Period (D Block),12/09/2021,10:30 AM,11:50 AM
 Calculus I*,12/09/2021,11:55 AM,1:10 PM
 Lunch B,12/09/2021,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,12/09/2021,2:00 PM,3:15 PM
-Woodworking II*,12/15/2021,8:30 AM,9:45 AM
-Community Period,12/15/2021,9:50 AM,10:30 AM
-Free Period (D Block),12/15/2021,10:30 AM,11:50 AM
+Woodworking II*,12/15/2021,9:00 AM,10:15 AM
+Break,12/15/2021,10:15 AM,10:30 AM
+Free Period (D Block),12/15/2021,10:35 AM,11:50 AM
 Calculus I*,12/15/2021,11:55 AM,1:10 PM
 Lunch B,12/15/2021,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,12/15/2021,2:00 PM,3:15 PM
-Woodworking II*,1/05/2022,8:30 AM,9:45 AM
-Community Period,1/05/2022,9:50 AM,10:30 AM
-Free Period (D Block),1/05/2022,10:30 AM,11:50 AM
+Woodworking II*,1/05/2022,9:00 AM,10:15 AM
+Break,1/05/2022,10:15 AM,10:30 AM
+Free Period (D Block),1/05/2022,10:35 AM,11:50 AM
 Calculus I*,1/05/2022,11:55 AM,1:10 PM
 Lunch B,1/05/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,1/05/2022,2:00 PM,3:15 PM
@@ -626,9 +626,9 @@ Free Period (D Block),2/03/2022,10:30 AM,11:50 AM
 Calculus I*,2/03/2022,11:55 AM,1:10 PM
 Lunch B,2/03/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,2/03/2022,2:00 PM,3:15 PM
-Woodworking II*,2/09/2022,8:30 AM,9:45 AM
-Community Period,2/09/2022,9:50 AM,10:30 AM
-Free Period (D Block),2/09/2022,10:30 AM,11:50 AM
+Woodworking II*,2/09/2022,9:00 AM,10:15 AM
+Break,2/09/2022,10:15 AM,10:30 AM
+Free Period (D Block),2/09/2022,10:35 AM,11:50 AM
 Calculus I*,2/09/2022,11:55 AM,1:10 PM
 Lunch B,2/09/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,2/09/2022,2:00 PM,3:15 PM
@@ -638,9 +638,9 @@ Free Period (D Block),2/15/2022,10:30 AM,11:50 AM
 Calculus I*,2/15/2022,11:55 AM,1:10 PM
 Lunch B,2/15/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,2/15/2022,2:00 PM,3:15 PM
-Woodworking II*,2/23/2022,8:30 AM,9:45 AM
-Community Period,2/23/2022,9:50 AM,10:30 AM
-Free Period (D Block),2/23/2022,10:30 AM,11:50 AM
+Woodworking II*,2/23/2022,9:00 AM,10:15 AM
+Break,2/23/2022,10:15 AM,10:30 AM
+Free Period (D Block),2/23/2022,10:35 AM,11:50 AM
 Calculus I*,2/23/2022,11:55 AM,1:10 PM
 Lunch B,2/23/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,2/23/2022,2:00 PM,3:15 PM
@@ -668,9 +668,9 @@ Free Period (D Block),3/17/2022,10:30 AM,11:50 AM
 Calculus I*,3/17/2022,11:55 AM,1:10 PM
 Lunch B,3/17/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,3/17/2022,2:00 PM,3:15 PM
-Woodworking II*,3/23/2022,8:30 AM,9:45 AM
-Community Period,3/23/2022,9:50 AM,10:30 AM
-Free Period (D Block),3/23/2022,10:30 AM,11:50 AM
+Woodworking II*,3/23/2022,9:00 AM,10:15 AM
+Break,3/23/2022,10:15 AM,10:30 AM
+Free Period (D Block),3/23/2022,10:35 AM,11:50 AM
 Calculus I*,3/23/2022,11:55 AM,1:10 PM
 Lunch B,3/23/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,3/23/2022,2:00 PM,3:15 PM
@@ -680,9 +680,9 @@ Free Period (D Block),4/07/2022,10:30 AM,11:50 AM
 Calculus I*,4/07/2022,11:55 AM,1:10 PM
 Lunch B,4/07/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,4/07/2022,2:00 PM,3:15 PM
-Woodworking II*,4/13/2022,8:30 AM,9:45 AM
-Community Period,4/13/2022,9:50 AM,10:30 AM
-Free Period (D Block),4/13/2022,10:30 AM,11:50 AM
+Woodworking II*,4/13/2022,9:00 AM,10:15 AM
+Break,4/13/2022,10:15 AM,10:30 AM
+Free Period (D Block),4/13/2022,10:35 AM,11:50 AM
 Calculus I*,4/13/2022,11:55 AM,1:10 PM
 Lunch B,4/13/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,4/13/2022,2:00 PM,3:15 PM
@@ -692,9 +692,9 @@ Free Period (D Block),4/21/2022,10:30 AM,11:50 AM
 Calculus I*,4/21/2022,11:55 AM,1:10 PM
 Lunch B,4/21/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,4/21/2022,2:00 PM,3:15 PM
-Woodworking II*,4/27/2022,8:30 AM,9:45 AM
-Community Period,4/27/2022,9:50 AM,10:30 AM
-Free Period (D Block),4/27/2022,10:30 AM,11:50 AM
+Woodworking II*,4/27/2022,9:00 AM,10:15 AM
+Break,4/27/2022,10:15 AM,10:30 AM
+Free Period (D Block),4/27/2022,10:35 AM,11:50 AM
 Calculus I*,4/27/2022,11:55 AM,1:10 PM
 Lunch B,4/27/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,4/27/2022,2:00 PM,3:15 PM
@@ -722,15 +722,15 @@ Free Period (D Block),5/19/2022,10:30 AM,11:50 AM
 Calculus I*,5/19/2022,11:55 AM,1:10 PM
 Lunch B,5/19/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,5/19/2022,2:00 PM,3:15 PM
-Woodworking II*,5/25/2022,8:30 AM,9:45 AM
-Community Period,5/25/2022,9:50 AM,10:30 AM
-Free Period (D Block),5/25/2022,10:30 AM,11:50 AM
+Woodworking II*,5/25/2022,9:00 AM,10:15 AM
+Break,5/25/2022,10:15 AM,10:30 AM
+Free Period (D Block),5/25/2022,10:35 AM,11:50 AM
 Calculus I*,5/25/2022,11:55 AM,1:10 PM
 Lunch B,5/25/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,5/25/2022,2:00 PM,3:15 PM
-Woodworking II*,6/01/2022,8:30 AM,9:45 AM
-Community Period,6/01/2022,9:50 AM,10:30 AM
-Free Period (D Block),6/01/2022,10:30 AM,11:50 AM
+Woodworking II*,6/01/2022,9:00 AM,10:15 AM
+Break,6/01/2022,10:15 AM,10:30 AM
+Free Period (D Block),6/01/2022,10:35 AM,11:50 AM
 Calculus I*,6/01/2022,11:55 AM,1:10 PM
 Lunch B,6/01/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,6/01/2022,2:00 PM,3:15 PM
@@ -758,9 +758,9 @@ Free Period (D Block),6/23/2022,10:30 AM,11:50 AM
 Calculus I*,6/23/2022,11:55 AM,1:10 PM
 Lunch B,6/23/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,6/23/2022,2:00 PM,3:15 PM
-Woodworking II*,6/29/2022,8:30 AM,9:45 AM
-Community Period,6/29/2022,9:50 AM,10:30 AM
-Free Period (D Block),6/29/2022,10:30 AM,11:50 AM
+Woodworking II*,6/29/2022,9:00 AM,10:15 AM
+Break,6/29/2022,10:15 AM,10:30 AM
+Free Period (D Block),6/29/2022,10:35 AM,11:50 AM
 Calculus I*,6/29/2022,11:55 AM,1:10 PM
 Lunch B,6/29/2022,1:15 PM,1:55 PM
 Finance: Portfolio Analysis,6/29/2022,2:00 PM,3:15 PM
@@ -854,9 +854,9 @@ Calculus I*,12/10/2021,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,12/10/2021,11:55 AM,1:10 PM
 Lunch B,12/10/2021,1:15 PM,1:55 PM
 Woodworking II*),12/10/2021,2:00 PM,3:15 PM
-Free Period (D Block),12/16/2021,9:00 AM,10:15 AM
-Break,12/16/2021,10:15 AM,10:30 AM
-Calculus I*,12/16/2021,10:35 AM,11:50 AM
+Free Period (D Block),12/16/2021,8:30 AM,9:45 AM
+Community Period,12/16/2021,9:50 AM,10:30 AM
+Calculus I*,12/16/2021,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,12/16/2021,11:55 AM,1:10 PM
 Lunch B,12/16/2021,1:15 PM,1:55 PM
 Woodworking II*),12/16/2021,2:00 PM,3:15 PM
@@ -866,15 +866,15 @@ Calculus I*,1/06/2022,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,1/06/2022,11:55 AM,1:10 PM
 Lunch B,1/06/2022,1:15 PM,1:55 PM
 Woodworking II*),1/06/2022,2:00 PM,3:15 PM
-Free Period (D Block),1/12/2022,8:30 AM,9:45 AM
-Community Period,1/12/2022,9:50 AM,10:30 AM
-Calculus I*,1/12/2022,10:30 AM,11:50 AM
+Free Period (D Block),1/12/2022,9:00 AM,10:15 AM
+Break,1/12/2022,10:15 AM,10:30 AM
+Calculus I*,1/12/2022,10:35 AM,11:50 AM
 Finance: Portfolio Analysis,1/12/2022,11:55 AM,1:10 PM
 Lunch B,1/12/2022,1:15 PM,1:55 PM
 Woodworking II*),1/12/2022,2:00 PM,3:15 PM
-Free Period (D Block),1/19/2022,8:30 AM,9:45 AM
-Community Period,1/19/2022,9:50 AM,10:30 AM
-Calculus I*,1/19/2022,10:30 AM,11:50 AM
+Free Period (D Block),1/19/2022,9:00 AM,10:15 AM
+Break,1/19/2022,10:15 AM,10:30 AM
+Calculus I*,1/19/2022,10:35 AM,11:50 AM
 Finance: Portfolio Analysis,1/19/2022,11:55 AM,1:10 PM
 Lunch B,1/19/2022,1:15 PM,1:55 PM
 Woodworking II*),1/19/2022,2:00 PM,3:15 PM
@@ -902,9 +902,9 @@ Calculus I*,2/10/2022,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,2/10/2022,11:55 AM,1:10 PM
 Lunch B,2/10/2022,1:15 PM,1:55 PM
 Woodworking II*),2/10/2022,2:00 PM,3:15 PM
-Free Period (D Block),2/16/2022,8:30 AM,9:45 AM
-Community Period,2/16/2022,9:50 AM,10:30 AM
-Calculus I*,2/16/2022,10:30 AM,11:50 AM
+Free Period (D Block),2/16/2022,9:00 AM,10:15 AM
+Break,2/16/2022,10:15 AM,10:30 AM
+Calculus I*,2/16/2022,10:35 AM,11:50 AM
 Finance: Portfolio Analysis,2/16/2022,11:55 AM,1:10 PM
 Lunch B,2/16/2022,1:15 PM,1:55 PM
 Woodworking II*),2/16/2022,2:00 PM,3:15 PM
@@ -914,9 +914,9 @@ Calculus I*,2/24/2022,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,2/24/2022,11:55 AM,1:10 PM
 Lunch B,2/24/2022,1:15 PM,1:55 PM
 Woodworking II*),2/24/2022,2:00 PM,3:15 PM
-Free Period (D Block),3/02/2022,8:30 AM,9:45 AM
-Community Period,3/02/2022,9:50 AM,10:30 AM
-Calculus I*,3/02/2022,10:30 AM,11:50 AM
+Free Period (D Block),3/02/2022,9:00 AM,10:15 AM
+Break,3/02/2022,10:15 AM,10:30 AM
+Calculus I*,3/02/2022,10:35 AM,11:50 AM
 Finance: Portfolio Analysis,3/02/2022,11:55 AM,1:10 PM
 Lunch B,3/02/2022,1:15 PM,1:55 PM
 Woodworking II*),3/02/2022,2:00 PM,3:15 PM
@@ -968,9 +968,9 @@ Calculus I*,4/28/2022,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,4/28/2022,11:55 AM,1:10 PM
 Lunch B,4/28/2022,1:15 PM,1:55 PM
 Woodworking II*),4/28/2022,2:00 PM,3:15 PM
-Free Period (D Block),5/04/2022,8:30 AM,9:45 AM
-Community Period,5/04/2022,9:50 AM,10:30 AM
-Calculus I*,5/04/2022,10:30 AM,11:50 AM
+Free Period (D Block),5/04/2022,9:00 AM,10:15 AM
+Break,5/04/2022,10:15 AM,10:30 AM
+Calculus I*,5/04/2022,10:35 AM,11:50 AM
 Finance: Portfolio Analysis,5/04/2022,11:55 AM,1:10 PM
 Lunch B,5/04/2022,1:15 PM,1:55 PM
 Woodworking II*),5/04/2022,2:00 PM,3:15 PM
@@ -1004,9 +1004,9 @@ Calculus I*,6/02/2022,10:30 AM,11:50 AM
 Finance: Portfolio Analysis,6/02/2022,11:55 AM,1:10 PM
 Lunch B,6/02/2022,1:15 PM,1:55 PM
 Woodworking II*),6/02/2022,2:00 PM,3:15 PM
-Free Period (D Block),6/08/2022,8:30 AM,9:45 AM
-Community Period,6/08/2022,9:50 AM,10:30 AM
-Calculus I*,6/08/2022,10:30 AM,11:50 AM
+Free Period (D Block),6/08/2022,9:00 AM,10:15 AM
+Break,6/08/2022,10:15 AM,10:30 AM
+Calculus I*,6/08/2022,10:35 AM,11:50 AM
 Finance: Portfolio Analysis,6/08/2022,11:55 AM,1:10 PM
 Lunch B,6/08/2022,1:15 PM,1:55 PM
 Woodworking II*),6/08/2022,2:00 PM,3:15 PM

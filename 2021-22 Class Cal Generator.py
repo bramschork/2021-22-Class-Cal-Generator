@@ -7,6 +7,10 @@ d_day_classes = ['Free Period (D Block)', 'Community Period', 'Calculus I*', 'Fi
 
 file_path = 'C:/Users/Bram Schork/Dropbox/Bram/Projects/2021-22-Class-Cal-Generator/classes.csv'
 
+global weds
+
+weds = []
+
 date_exceptions = [
     9012021,
     9022021,
@@ -52,19 +56,131 @@ with open(file_path, 'w') as file:
     writer = csv.writer(file)
     writer.writerows(format_bar)
 
-date = 9082021 #monthdayyear | A-day
+def get_days_of_year():
+    
+    global all_dates, weds
+    
+    all_dates = []
 
+    September = 30
+    October = 31
+    November = 30
+    December = 31
+    January = 31
+    February = 28
+    March = 31
+    April = 30
+    May = 31
+    June = 30
 
+    iterable = 0
+    working_date = 9012021
 
-weds = []
-iter = 0 
-while iter < 60:
-    wed_date = (date + iter*70000)
-    weds.append(wed_date)
-    iter += 1
+    for num in range(1, September + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= September*10000
 
-date = 9092021 #monthdayyear | A-day | first day of school
+    for num in range(1, October + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= October*10000
 
+    for num in range(1, November + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= November*10000
+
+    for num in range(1, December + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= December*10000
+    working_date -= 12000000 #NEW YEAR
+    working_date += 1
+
+    for num in range(1, January + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= January*10000
+
+    for num in range(1, February + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= February*10000
+
+    for num in range(1, March + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= March*10000
+
+    for num in range(1, April + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= April*10000
+
+    for num in range(1, May + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= May*10000
+
+    for num in range(1, June + 1):
+        while iterable < num:
+            all_dates.append(working_date)
+            working_date += 10000 #advance it by one day
+            iterable += 1
+    iterable = 0 
+    working_date += 1000000
+    working_date -= June*10000   
+    
+
+    date = 9082021 #monthdayyear | A-day
+    iter = 0 
+    while iter < len(all_dates):
+        wed_date = (all_dates[iter])
+        weds.append(wed_date)
+        iter += 7
+    print(weds)
+
+    date = 9092021 #monthdayyear | A-day | first day of school
+    
+    remove_weekends()     
+   
 def fill_a_days():   
     index_pos = 0
     while index_pos < len(all_dates):
@@ -175,7 +291,6 @@ def fill_c_days():
                 writer = csv.writer(file)
                 writer.writerows(c_day)
 
-
 def fill_d_days():   
     index_pos = 3
     while index_pos < len(all_dates):
@@ -212,123 +327,7 @@ def fill_d_days():
             with open(file_path, 'a') as file:
                 writer = csv.writer(file)
                 writer.writerows(d_day)
-
-
-
-def get_days_of_year():
-    
-    global all_dates
-    
-    all_dates = []
-
-    September = 30
-    October = 31
-    November = 30
-    December = 31
-    January = 31
-    February = 28
-    March = 31
-    April = 30
-    May = 31
-    June = 30
-
-    iterable = 0
-    working_date = 9012021
-
-    for num in range(1, September + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= September*10000
-
-    for num in range(1, October + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= October*10000
-
-    for num in range(1, November + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= November*10000
-
-    for num in range(1, December + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= December*10000
-    working_date -= 12000000 #NEW YEAR
-    working_date += 1
-
-    for num in range(1, January + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= January*10000
-
-    for num in range(1, February + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= February*10000
-
-    for num in range(1, March + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= March*10000
-
-    for num in range(1, April + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= April*10000
-
-    for num in range(1, May + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= May*10000
-
-    for num in range(1, June + 1):
-        while iterable < num:
-            all_dates.append(working_date)
-            working_date += 10000 #advance it by one day
-            iterable += 1
-    iterable = 0 
-    working_date += 1000000
-    working_date -= June*10000   
-    
-    remove_weekends()     
-        
+     
 def remove_weekends():
     
     global all_dates
