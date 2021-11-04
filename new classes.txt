@@ -1,0 +1,4 @@
+e_day_classes = ['Statistics*', 'Community Period', 'Free Period (F Block)', 'Lunch B', 'English IV*', 'Spanish IV*']
+f_day_classes = ['Free Period (F Block)', 'Community Period', 'English IV*', 'Spanish IV*', 'Lunch B', 'Statistics*']
+g_day_classes = ['English IV*', 'Community Period', 'Spanish IV*', 'Statistics*', 'Lunch B', 'Free Period (F Block)']
+h_day_classes = ['Spanish IV*', 'Community Period', 'Statistics*', 'Lunch / Free Period (F Block)', 'English IV*']
